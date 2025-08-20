@@ -1,8 +1,4 @@
-const getShippingMessage = (
-  country: string,
-  price: number,
-  deliveryFee: number
-): string => {
+const getShippingMessage = (country, price, deliveryFee) => {
   if (!country || country.trim().length <= 1) {
     throw new Error("Invalid country name");
   }

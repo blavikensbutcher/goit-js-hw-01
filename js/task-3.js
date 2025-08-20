@@ -1,4 +1,4 @@
-const getElementWidth = (content: string, padding: string, border: string) => {
+const getElementWidth = (content, padding, border) => {
   if (
     !content.includes("px") ||
     !padding.includes("px") ||

@@ -1,4 +1,4 @@
-const makeTransaction = (quantity: number, pricePerDroid: number): string => {
+const makeTransaction = (quantity, pricePerDroid) => {
   if (quantity <= 0 || pricePerDroid <= 0) {
     throw new Error("Number must be greater than 0");
   }
